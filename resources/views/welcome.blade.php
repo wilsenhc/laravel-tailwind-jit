@@ -11,6 +11,22 @@
 </head>
 
 <body>
+    <aside class="p-3 text-center bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+        <p class="text-sm font-medium text-white">
+            We've released a new product!
+
+            <a href="" class="inline-flex items-center underline">
+                Buy now
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    class="h-4 w-4 ml-1.5 flex-shrink-0">
+                    <path fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+        </p>
+    </aside>
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -120,7 +136,140 @@
             </div>
         </div>
     </section>
-    <footer class="text-gray-600 bg-gray-50 body-font">
+    <section class="bg-gray-200">
+        <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24">
+            <div class="max-w-xl mx-auto text-center">
+                <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
+                    Read trusted reviews from our customers
+                </h2>
+
+                <p class="max-w-lg mx-auto mt-4 text-gring-offset-warm-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                    praesentium natus sapiente commodi. Aliquid sunt tempore iste
+                    repellendus explicabo dignissimos placeat, autem harum dolore
+                    reprehenderit quis! Quo totam dignissimos earum.
+                </p>
+            </div>
+
+            <div
+                class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100  sm:grid-cols-2 lg:grid-cols-3 sm:gap-16">
+                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                    <h5 class="text-xl font-medium text-gray-700">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    </h5>
+
+                    <footer class="flex items-center mt-6 text-gray-500">
+                        <img src="https://www.hyperui.dev/photos/man-5.jpeg" alt=""
+                            class="object-cover w-12 h-12 rounded-full" />
+
+                        <div class="ml-3 text-left">
+                            <p class="text-sm font-medium text-gray-700">Barry Scott</p>
+
+                            <p class="mt-1 text-xs text-gray-500">
+                                Digital Marketing at Studio
+                            </p>
+                        </div>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                    <h5 class="text-xl font-medium text-gray-700">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    </h5>
+
+                    <footer class="flex items-center mt-8 text-gray-500">
+                        <img src="https://www.hyperui.dev/photos/man-5.jpeg" alt=""
+                            class="object-cover w-12 h-12 rounded-full" />
+
+                        <div class="ml-3 text-left">
+                            <p class="text-sm font-medium text-gray-700">Barry Scott</p>
+
+                            <p class="mt-1 text-xs text-gray-500">
+                                Digital Marketing at Studio
+                            </p>
+                        </div>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                    <h5 class="text-xl font-medium text-gray-700">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    </h5>
+
+                    <footer class="flex items-center mt-8 text-gray-500">
+                        <img src="https://www.hyperui.dev/photos/man-5.jpeg" alt=""
+                            class="object-cover w-12 h-12 rounded-full" />
+
+                        <div class="ml-3 text-left">
+                            <p class="text-sm font-medium text-gray-700">Barry Scott</p>
+
+                            <p class="mt-1 text-xs text-gray-500">
+                                Digital Marketing at Studio
+                            </p>
+                        </div>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                    <h5 class="text-xl font-medium text-gray-700">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    </h5>
+
+                    <footer class="flex items-center mt-8 text-gray-500">
+                        <img src="https://www.hyperui.dev/photos/man-5.jpeg" alt=""
+                            class="object-cover w-12 h-12 rounded-full" />
+
+                        <div class="ml-3 text-left">
+                            <p class="text-sm font-medium text-gray-700">Barry Scott</p>
+
+                            <p class="mt-1 text-xs text-gray-500">
+                                Digital Marketing at Studio
+                            </p>
+                        </div>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                    <h5 class="text-xl font-medium text-gray-700">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    </h5>
+
+                    <footer class="flex items-center mt-8 text-gray-500">
+                        <img src="https://www.hyperui.dev/photos/man-5.jpeg" alt=""
+                            class="object-cover w-12 h-12 rounded-full" />
+
+                        <div class="ml-3 text-left">
+                            <p class="text-sm font-medium text-gray-700">Barry Scott</p>
+
+                            <p class="mt-1 text-xs text-gray-500">
+                                Digital Marketing at Studio
+                            </p>
+                        </div>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                    <h5 class="text-xl font-medium text-gray-700">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    </h5>
+
+                    <footer class="flex items-center mt-8 text-gray-500">
+                        <img src="https://www.hyperui.dev/photos/man-5.jpeg" alt=""
+                            class="object-cover w-12 h-12 rounded-full" />
+
+                        <div class="ml-3 text-left">
+                            <p class="text-sm font-medium text-gray-700">Barry Scott</p>
+
+                            <p class="mt-1 text-xs text-gray-500">
+                                Digital Marketing at Studio
+                            </p>
+                        </div>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <footer class="text-gray-600 body-font">
         <div
             class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
