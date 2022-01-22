@@ -2,8 +2,9 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{{ config('app.name') }}</title>
 
@@ -136,6 +137,37 @@
             </div>
         </div>
     </section>
+    <section class="bg-gray-100 text-gray-800">
+        <div class="container max-w-5xl px-4 py-12 mx-auto">
+            <div class="grid gap-4 mx-4 sm:grid-cols-12">
+                <div class="col-span-12 sm:col-span-3">
+                    <div class="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-indigo-600">
+                        <h3 class="text-3xl font-semibold">Morbi tempor</h3>
+                        <span class="text-sm font-bold tracking-wider uppercase text-gray-600">Vestibulum diam nunc</span>
+                    </div>
+                </div>
+                <div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                    <div class="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-gray-300">
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-indigo-600">
+                            <h3 class="text-xl font-semibold tracking-wide">Donec porta enim vel </h3>
+                            <time class="text-xs tracking-wide uppercase text-gray-600">Dec 2020</time>
+                            <p class="mt-3">Pellentesque feugiat ante at nisl efficitur, in mollis orci scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                        </div>
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-indigo-600">
+                            <h3 class="text-xl font-semibold tracking-wide">Aliquam sit amet nunc ut</h3>
+                            <time class="text-xs tracking-wide uppercase text-gray-600">Jul 2019</time>
+                            <p class="mt-3">Morbi vulputate aliquam libero non dictum. Aliquam sit amet nunc ut diam aliquet tincidunt nec nec dui. Donec mollis turpis eget egestas sodales.</p>
+                        </div>
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-indigo-600">
+                            <h3 class="text-xl font-semibold tracking-wide">Pellentesque habitant morbi</h3>
+                            <time class="text-xs tracking-wide uppercase text-gray-600">Jan 2016</time>
+                            <p class="mt-3">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="bg-gray-200">
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 sm:py-24">
             <div class="max-w-xl mx-auto text-center">
@@ -152,8 +184,8 @@
             </div>
 
             <div
-                class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100  sm:grid-cols-2 lg:grid-cols-3 sm:gap-16">
-                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100sm:grid-cols-2 lg:grid-cols-3 sm:gap-16">
+                <blockquote class="flex flex-col items-center justify-between text-center sm:items-start sm:text-left">
                     <h5 class="text-xl font-medium text-gray-700">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit"
                     </h5>
@@ -172,7 +204,7 @@
                     </footer>
                 </blockquote>
 
-                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                <blockquote class="flex flex-col items-center justify-between text-center sm:items-start sm:text-left">
                     <h5 class="text-xl font-medium text-gray-700">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit"
                     </h5>
@@ -191,7 +223,7 @@
                     </footer>
                 </blockquote>
 
-                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                <blockquote class="flex flex-col items-center justify-between text-center sm:items-start sm:text-left">
                     <h5 class="text-xl font-medium text-gray-700">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit"
                     </h5>
@@ -210,7 +242,7 @@
                     </footer>
                 </blockquote>
 
-                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                <blockquote class="flex flex-col items-center justify-between text-center sm:items-start sm:text-left">
                     <h5 class="text-xl font-medium text-gray-700">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit"
                     </h5>
@@ -229,7 +261,7 @@
                     </footer>
                 </blockquote>
 
-                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                <blockquote class="flex flex-col items-center justify-between text-center sm:items-start sm:text-left">
                     <h5 class="text-xl font-medium text-gray-700">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit"
                     </h5>
@@ -248,7 +280,7 @@
                     </footer>
                 </blockquote>
 
-                <blockquote class="flex flex-col items-center justify-between text-center  sm:items-start sm:text-left">
+                <blockquote class="flex flex-col items-center justify-between text-center sm:items-start sm:text-left">
                     <h5 class="text-xl font-medium text-gray-700">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit"
                     </h5>
@@ -266,6 +298,33 @@
                         </div>
                     </footer>
                 </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-100 text-gray-800">
+        <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
+            <p class="p-2 text-sm font-medium tracking-wider text-center uppercase">How it works</p>
+            <h2 class="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
+            <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-300">
+                <details>
+                    <summary class="py-2 outline-none cursor-pointer focus:underline">Optio maiores eligendi molestiae totam dolores similique?</summary>
+                    <div class="px-4 pb-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque in fugiat magni, quas animi enim veritatis deleniti ex. Impedit.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary class="py-2 outline-none cursor-pointer focus:underline">Modi dolorem veritatis culpa quos consequuntur beatae itaque excepturi perspiciatis?</summary>
+                    <div class="px-4 pb-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur quae, eos explicabo odit minima libero veniam similique quibusdam doloribus facilis ipsa accusantium vel maiores corrupti! Libero voluptate a doloribus?</p>
+                    </div>
+                </details>
+                <details>
+                    <summary class="py-2 outline-none cursor-pointer focus:underline">Magni reprehenderit possimus debitis?</summary>
+                    <div class="px-4 pb-4 space-y-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates aspernatur dolores in consequatur doloremque inventore reprehenderit, consequuntur perspiciatis architecto.</p>
+                        <p>Sed consectetur quod tenetur! Voluptatibus culpa incidunt veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus autem eaque unde possimus quae.</p>
+                    </div>
+                </details>
             </div>
         </div>
     </section>
